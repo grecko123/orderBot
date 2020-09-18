@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 86bcf2575ff26d84d4531d7da71589e993cbbab3
 package newpacselinum;
 
 import java.util.Iterator;
@@ -56,11 +52,7 @@ public class orderBot_2 {
 		driver.get(baseURL); //call url , opp to properly define above
 
 		// login
-<<<<<<< HEAD
-		driver.findElement(By.id("email")).sendKeys("lgrech1225@gmail.com"); // login on page, userid type
-=======
 		driver.findElement(By.id("email")).sendKeys("SOMEINPUT"); // login on page, userid type
->>>>>>> 86bcf2575ff26d84d4531d7da71589e993cbbab3
 		driver.findElement(By.id("password")).sendKeys(username); //user password in this case... defined above
 
 		driver.findElement( //looking for element via xpath, buttion to signin here
